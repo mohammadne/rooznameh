@@ -10,3 +10,14 @@ The blog platform written in django which users can create blog posts. Each blog
 - monitoring (metrics, structured logging, tracing)
 - concurency
 - authentication
+
+```bash
+py manage.py runserver
+
+py manage.py createsuperuser
+
+py manage.py shell
+
+py manage.py 
+py manage.py migrate
+```
