@@ -16,7 +16,7 @@
     <nav>
         <a href="/">home</a>
         <a href="/about">about</a>
-        <a href="/posts">news</a>
+        <a href="{% url 'posts:list' %}">news</a>
     </nav>
     <main>
         {% block content %}
