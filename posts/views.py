@@ -12,5 +12,5 @@ def posts_list(request):
 
 def post(request, slug):
     # return HttpResponse(slug)
-    posts = Post.objects.get(slug=slug)
+    post = Post.objects.get(slug=slug)
     return render(request, 'post_page.html', {'post': post})
